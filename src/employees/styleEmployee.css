@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Personal Details of the employee */
+
+.employeeDetails {
+  padding: 10px 1.5rem;
+  margin-bottom: 6px;
+  /* width: max-content; */
+}
+
+.employeeName {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px 0px;
+  color: red;
+}
+
+.employeeID::before {
+  content: "ID: ";
+}
+.employeeID {
+  font-weight: bold;
+  padding: 2px 0;
+}
+
+/* Month Details */
+
+.month_details {
+  /* background-color: pink; */
+  padding: 0 1.5rem;
+  width: max-content;
+}
+.month_details h2 {
+  color: red;
+}
+select {
+  /* background-color: green; */
+  padding: 4px 42px;
+  border: 1.5px solid red;
+  border-radius: 6px;
+}
+
+/*  earnings and deductions */
+
+.earnings_deductions {
+  padding: 0 1.5rem;
+  /* background-color: lightblue; */
+  display: flex;
+  margin: 6px 0px;
+}
+
+.earnings_deductions h2 {
+  color: red;
+  font-weight: bold;
+}
+
+.earnings_input {
+  /* padding: 20px; */
+  /* background-color: red; */
+  margin-right: 3rem;
+}
+.deductions_input {
+  /* padding: 20px; */
+  /* background-color: red; */
+}
+
+.inputField {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputField input {
+  margin: 3px;
+  padding: 5px 30px;
+  border: 1.5px solid red;
+  color: red;
+  font-weight: bold;
+  /* background-color: aqua; */
+  border-radius: 4px;
+}
+.inputField input:focus {
+  outline: none;
+}
+input :hover {
+  border: none;
+}
+
+a {
+  /* background-color: yellow; */
+  margin: 0 1.5rem;
+}
+
+button {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 10px 200px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 10px red;
+  transition: ease 0.6s;
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 10px red;
+  color: red;
+  background-color: white;
+}

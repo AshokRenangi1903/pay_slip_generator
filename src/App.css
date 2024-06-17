@@ -1,0 +1,35 @@
+.nav-bar {
+  color: white;
+  background-color: red;
+  padding: 14px 12px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.allEmployees {
+  display: grid;
+  /* background-color: pink; */
+  grid-template-columns: auto auto auto auto;
+}
+.eachEmployee {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  border: 2px solid red;
+  margin: 12px;
+  padding: 10px;
+  color: black;
+  width: 200px;
+  box-shadow: 3px 3px 10px red;
+  border-radius: 8px;
+}
+.eachEmployee:hover {
+  box-shadow: -1px -1px 10px red;
+}
+.eachEmployee .employee_name {
+  font-weight: bold;
+  color: red;
+}
+.allEmployees a {
+  text-decoration: none;
+}
